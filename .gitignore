@@ -1,0 +1,9 @@
+# virtual environment - huge, and each machine builds its own
+.venv/
+# secrets (API keys) - never commit
+.env
+__pycache__/
+*.pyc
+# logs are generated at run time (keep the folder itself)
+logs/*
+!logs/.gitkeep
