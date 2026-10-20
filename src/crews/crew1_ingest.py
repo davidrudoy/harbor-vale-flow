@@ -46,7 +46,7 @@ ingest_agent = Agent(
         "and never guess or fix values."
     ),
     tools=[read_csv_summary],
-    llm="gemini/gemini-2.5-flash",
+    llm="gemini/gemini-3.8-flash",
     allow_delegation=False,  # keeps the flow predictable: no handing work to other agents
 )
 
